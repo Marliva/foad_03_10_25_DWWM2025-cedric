@@ -224,3 +224,101 @@ main {
     margin-bottom: 2rem;
 }
 
+.basic,
+.premium {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    border: 1px solid #bfbfbf;
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.75);
+}
+
+
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    height: 4rem;
+    background-color: #616161;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+
+}
+
+.premium h5 {
+    background-color: #f34336;
+}
+
+.basic p,
+.premium p {
+    font-size: .8rem;
+    font-weight: 400;
+    border: .02rem solid #bfbfbf33;
+    padding: 1rem 0 1rem 0;
+    margin: 0;
+
+
+}
+
+.basic p span,
+.premium p span {
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: .02rem solid #bfbfbf33;
+    padding: 1rem 0 1rem 0;
+    background-color: #f1f1f1;
+}
+
+.button button {
+    width: 30%;
+    height: 2rem;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    font-size: .8rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+h6 {
+    font-size: 2rem;
+    font-weight: 200;
+    border: .02rem solid #bfbfbf33;
+    padding: .8rem 0 .8rem 0;
+}
+
+
+/*------FOOTER------*/
+
+footer {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem 0 1rem 0;
+    background-color: #f1f1f1;
+}
+
+footer p {
+    margin-top: 1rem;
+    font-size: .8rem;
+}
